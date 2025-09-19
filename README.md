@@ -58,3 +58,9 @@ matibucket/
 ├─ en_proceso/
 ├─ procesado_ok/
 └─ procesado_error/
+
+---
+
+Documentacion:
+-  Como obtener AK/SK (https://support.huaweicloud.com/intl/en-us/iam_faq/iam_01_0618.html)
+-  OBS Trigger (https://support.huaweicloud.com/intl/en-us/usermanual-functiongraph/functiongraph_01_0205.html)
