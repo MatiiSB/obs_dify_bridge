@@ -49,6 +49,11 @@ Este proyecto implementa un flujo serverless en **Huawei Cloud** que procesa arc
 3. Verificar resultado en:
    - `procesado_ok/` → si fue exitoso.
    - `procesado_error/` → si hubo error.
+  
+## Consideraciones previas:
+1. Cantidad máxima: el flujo acepta hasta 5 archivos por solicitud. Para más de 5, enviar en tandas de 5.
+2. Formato y extensión: solo PDF. Preferí extensión en minúsculas (.pdf) para evitar problemas en sistemas case-sensitive.
+3. Evitar espacios en los nombres de archivos.
 
 ---
 
