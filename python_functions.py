@@ -125,7 +125,7 @@ def handler(event, context):
         print("Payload a enviar a Dify:", json.dumps(payload, indent=2))
 
         try:
-            dify_resp = requests.post(DIFY_API_URL, headers=headers, json=payload, timeout=600)
+            dify_resp = requests.post(DIFY_API_URL, headers=headers, json=payload)
             print("Respuesta Dify:", dify_resp.status_code, dify_resp.text)
         except requests.Timeout:
             err_key = f"{ERR_PREFIX}{nombre_archivo}"
